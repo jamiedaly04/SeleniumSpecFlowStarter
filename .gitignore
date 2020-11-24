@@ -360,3 +360,13 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+*.testlog
+.vs/
+.vs/*
+.vs\
+*.testlog
+*.sqlite
+obj/Debug/SeleniumSpecFlowStarter.csproj.FileListAbsolute.txt
+
+.vs/slnx.sqlite
+*.sqlite

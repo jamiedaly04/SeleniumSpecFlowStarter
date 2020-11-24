@@ -28,6 +28,7 @@ namespace SeleniumSpecFlowStarter.Steps
         public void ThenTheResultShouldBe(int p0)
         {
             ScenarioContext.Current.Pending();
+            var goose = 10;
         }
     }
 }
