@@ -370,3 +370,6 @@ obj/Debug/SeleniumSpecFlowStarter.csproj.FileListAbsolute.txt
 
 .vs/slnx.sqlite
 *.sqlite
+.vs/SeleniumSpecFlowStarter/v16/.suo
+.vs/slnx.sqlite
+*.sqlite
