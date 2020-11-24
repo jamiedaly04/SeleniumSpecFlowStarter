@@ -57,6 +57,7 @@ C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\bin\Debug\TechTalk.SpecFlow.
 C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\bin\Debug\Utf8Json.xml
 C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\bin\Debug\WebDriver.xml
 C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\bin\Debug\WebDriver.Support.xml
+C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\obj\Debug\SeleniumSpecFlowStarter.csprojAssemblyReference.cache
 C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\obj\Debug\SeleniumSpecFlowStarter.csproj.CoreCompileInputs.cache
 C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\obj\Debug\SeleniumSpecFlowStarter.csproj.CopyComplete
 C:\Users\Jamie\source\repos\SeleniumSpecFlowStarter\obj\Debug\SeleniumSpecFlowStarter.dll

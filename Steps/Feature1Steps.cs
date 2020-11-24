@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 using TechTalk.SpecFlow;
 
 namespace SeleniumSpecFlowStarter.Steps
@@ -6,29 +7,32 @@ namespace SeleniumSpecFlowStarter.Steps
     [Binding]
     public class Feature1Steps
     {
+        int Number1;
+        int Number2;
+        int AdditionResult;
+
         [Given(@"the first number is (.*)")]
-        public void GivenTheFirstNumberIs(int p0)
+        public void GivenTheFirstNumberIs(int Num1)
         {
-            ScenarioContext.Current.Pending();
+            Number1 = Num1;
         }
         
         [Given(@"the second number is (.*)")]
-        public void GivenTheSecondNumberIs(int p0)
+        public void GivenTheSecondNumberIs(int Num2)
         {
-            ScenarioContext.Current.Pending();
+            Number2 = Num2;
         }
         
         [When(@"the two numbers are added")]
         public void WhenTheTwoNumbersAreAdded()
         {
-            ScenarioContext.Current.Pending();
+            AdditionResult = Number1 + Number2;
         }
         
         [Then(@"the result should be (.*)")]
-        public void ThenTheResultShouldBe(int p0)
+        public void ThenTheResultShouldBe(int Answer)
         {
-            ScenarioContext.Current.Pending();
-            var goose = 10;
+            Assert.AreEqual(AdditionResult, Answer);
         }
     }
 }
